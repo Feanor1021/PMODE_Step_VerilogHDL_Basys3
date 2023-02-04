@@ -1,26 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: Digilent    
-// Engineer: Kaitlyn Franz
-// 
-// Create Date: 01/23/2016 03:44:35 PM
-// Design Name: Claw
-// Module Name: clock_div
-// Project Name: Claw_game
-// Target Devices: Basys3
-// Tool Versions: 2015.4
-// Description: This is a clock divider. It takes the system clock 
-// and divides that down to a slower clock. It counts at the rate of the 
-// system clock to define_speed and toggles the output clock signal. 
-// 
-// Dependencies: 
-// 
-// Revision: 1
-// Revision 0.01 - File Created
-// Additional Comments: 
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module clock_div(
     input clk,

@@ -1,27 +1,5 @@
 `timescale 1ns / 1ps
 
-//////////////////////////////////////////////////////////////////////////////////
-// Company: Digilent    
-// Engineer: Kaitlyn Franz
-// 
-// Create Date: 01/23/2016 03:44:35 PM
-// Design Name: Claw
-// Module Name: pmod_step_driver
-// Project Name: Claw_game
-// Target Devices: Basys3
-// Tool Versions: 2015.4
-// Description: This is the state machine that drives
-// the output to the PmodSTEP. It alternates one of four pins being
-// high at a rate set by the clock divider. 
-// 
-// Dependencies: 
-// 
-// Revision: 1
-// Revision 0.01 - File Created
-// Additional Comments: 
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 module pmod_step_driver(
     input rst,
     input dir,

@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Product Version: Vivado v2021.2 (64-bit)              -->
-<!--                                                         -->
-<!-- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.   -->
 
 <Project Version="7" Minor="56" Path="C:/Users/furka/Desktop/Stepper_Motor_Full_Step/Stepper_Motor_Full_Step.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>

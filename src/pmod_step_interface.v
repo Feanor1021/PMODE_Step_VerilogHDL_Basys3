@@ -1,27 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: Digilent
-// Engineer: Kaitlyn Franz
-// 
-// Create Date: 01/23/2016 03:44:35 PM
-// Design Name: Claw
-// Module Name: pmod_step_interface
-// Project Name: Claw_game
-// Target Devices: Basys3
-// Tool Versions: 2015.4
-// Description: This module is the top module for a stepper motor controller
-// using the PmodSTEP. It operates in Full Step mode and encludes an enable signal
-// as well as direction control. The Enable signal is connected to switch one and 
-// the direction signal is connected to switch zero. 
-// 
-// Dependencies: 
-// 
-// Revision: 1
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module pmod_step_interface(
     input clk,

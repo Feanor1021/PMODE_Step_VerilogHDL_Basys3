@@ -1,10 +1,14 @@
-# PMODE_Step_VerilogHDL_Basys3
+# PMODE Step VerilogHDL Basys3
+
+![Basys3 Board](https://st2.myideasoft.com/shop/dr/21/myassets/products/964/pr_01_1964.png?revision=1419240942)
 
 This project contains the Verilog HDL code for implementing a PMODE step on the Basys3 FPGA development board.
 
 ## Overview
 
 The PMODE step is a useful circuit for controlling the direction of rotation of a stepper motor. The PMODE step circuit consists of four switches (SW0-SW3) and four output pins (LED0-LED3). When the switches are pressed in a particular sequence, the corresponding LED pins will light up in a particular sequence. This sequence of LED pin activations determines the direction and speed of the stepper motor.
+
+![PMODE Step Circuit](https://digilent.com/reference/_media/reference/pmod/pmodstep/pmodstep-0.png)
 
 ## Design
 
@@ -30,7 +34,3 @@ This project was developed by [Feanor1021](https://github.com/Feanor1021). The a
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
-
-[Rapor of the project.pdf](https://github.com/Feanor1021/PMODE_Step_VerilogHDL_Basys3/files/10420679/Rapor.of.the.project.pdf)
